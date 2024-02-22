@@ -1,0 +1,9 @@
+<!ELEMENT suite (Listner)>
+<!ATTLIST suite name NMTOKEN #REQUIRED>
+<!ELEMENT Listner (Listner?,test?)>
+<!ATTLIST Listner class-name CDATA #IMPLIED>
+<!ELEMENT test (classes)>
+<!ATTLIST test name NMTOKEN #REQUIRED>
+<!ELEMENT classes (class)>
+<!ELEMENT class EMPTY>
+<!ATTLIST class name NMTOKEN #REQUIRED>

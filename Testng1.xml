@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE suite SYSTEM "Testng1.dtd">
+<suite name="zaker">
+	<Listner>
+		<Listner class-name="">
+	<test name ="zakertest">
+		<classes>
+		<class name="Automation_Practice.Test.TestNg1"/>
+		</classes>
+		</test>
+	</Listner>
+	</Listner>
+		</suite>
+		
+		
+		
